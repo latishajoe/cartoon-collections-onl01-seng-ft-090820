@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(array)
   i = 0
-  if array.any?{|i| i.length > 4}
+  if array.any? {|i| i.length > 4}
     false
   else
     true
