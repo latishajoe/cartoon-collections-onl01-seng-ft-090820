@@ -7,13 +7,13 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  i = 0
-  if array.any? {|i| i.length > 4}
-    false
-  else
-    true
-  i = i + 1
- end
+  new_array = []
+  i = 0 
+  while i < array.length 
+    new_array << array[i].capitalize + "!"
+    i += 1
+   end
+   new_array
 end
 
 def long_planeteer_calls# code an argument here
